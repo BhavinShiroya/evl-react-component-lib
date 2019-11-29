@@ -11,6 +11,8 @@
   "license": "MIT",
   "types": "dist/index.d.ts",
   "devDependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/styles": "^4.6.0",
     "@types/react": "^16.8.25",
     "@types/react-dom": "^16.8.5",
     "@types/styled-components": "^4.1.18",
@@ -32,7 +34,9 @@
   "peerDependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/styles": "^4.6.0"
   },
   "scripts": {
     "build": "rollup -c",
@@ -48,5 +52,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/styles": "^4.6.0",
+    "styled-components": "^4.4.1"
+  }
 }

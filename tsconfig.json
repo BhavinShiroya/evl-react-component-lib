@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "lib": [
+      "es6",
+      "dom"
+    ],
     "declaration": true,
     "declarationDir": "./dist",
     "strict": true,
@@ -11,8 +15,13 @@
     "noImplicitAny": true,
     "outDir": "./dist",
     "target": "es5",
-    "jsx": "react"
+    "jsx": "react",
+    "noImplicitThis": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }

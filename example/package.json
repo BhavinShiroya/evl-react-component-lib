@@ -6,9 +6,12 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.2.0",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "homepage": "https://github.com/BhavinShiroya/evl-react-component-lib"
   },
   "devDependencies": {
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/styles": "^4.6.0",
     "@types/jest": "^24.0.19",
     "@types/node": "^12.11.5",
     "@types/react": "^16.9.9",
