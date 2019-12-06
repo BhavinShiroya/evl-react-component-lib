@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Button from '@material-ui/core/Button';
 
-export interface ButtonComponentProps {
+export interface ButtonComponentProps extends React.HTMLAttributes<HTMLButtonElement>{
   buttonTitle?: string;
   disabled?: boolean;
   buttonVariant: "text" | "outlined" | "contained" | undefined;  
